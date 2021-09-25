@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,62 +13,90 @@
     <title>Markal Hormigonera S.A.</title>
 </head>
 <body>
+    <div class="grilla">
     <!--Aqui va la barra de navegacion-->
     <header>
-        <nav>
-            <div class="grillaNav">
-                <div class="imgLogo">
-                    <a class="imgLogo"  href="index.html"> <img src="img/Logo/Logo.png" alt="Logo"></a>
-                </div>
-                <div class="redes">
-                    <h2>Markal 
-                    <br>Hormigonera 
-                    <br>S.A. </h2>
-                    <a href="https://www.instagram.com/markalhormigonera/?hl=es-la" class="redesSociales">
-                            <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com/markalhormigonerasa" class="redesSociales">
-                            <i class="fab fa-facebook-square"></i>
-                    </a>
-                </div>
-                <div>
-                <ul class="barraInicio">
-                    <li><a href="index.html" class="colormenu">Inicio</a></li>
-                    <li><a href="Institucional.html" class="colormenu">Institucional</a></li>
-                    <li><a href="Productos.html" class="colormenu">Productos</a></li>
-                    <li><a href="Proyectosrealizados.html" class="colormenu">Proyectos realizados</a></li>
-                    <li><a href="Contacto.html" class="colormenu">Contacto</a></li>
-                </ul>
-                </div>
-            </div>
-            <div class="fotoPaginaPrincipal">
-                <div class="tituloprincipal">
-                    <h1>Markal Hormigonera S.A </h1>
-                </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-color">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Logo/Logo.png" alt="icono"  width="180"  class="d-inline-block align-text-top" >
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <h1> Markal <br> Hormigonera S.A. </h1>
+                        </li>
+                        <li class="nav-item redesSociales">
+                            <a href="https://www.instagram.com/markalhormigonera/?hl=es-la" target="_blank">
+                                <i class="fab fa-instagram redes"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item redesSociales">
+                              <a href="https://www.facebook.com/markalhormigonerasa" class="redesSociales">
+                                <i class="fab fa-facebook-square"></i>
+                              </a>
+                        </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" href="Institucional.html">Institucional</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" href="Productos.html">Productos </a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" href="Proyectosrealizados.html">Proyectos realizados</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link active" href="Contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+              </div>
+            </nav>
     </header>
     <main>
+        <div class="fotoPaginaPrincipal"></div>
         <div class="infoQuienes">
             <h2>¿Quienes somos?</h2> <br>
             <p>En el año 1946, luego de la segunda guerra mundial, llega a Tandil una familia de inmigrantes, encabezada por Fidel Cardinale, para radicarse en la ciudad e iniciarse en la construcción. De esta familia nacen Francisco y Luis Cardinale.
             Luis Cardinale, dedicado a la construcción desde su inicio, se asocia con Ignacio Diez creando la empresa constructora Cardinale y Diez. Es así que, con todos estos antecedentes familiares, Gustavo, hijo de Luis Cardinale e ahijado de Ignacio Diez, luego de recorrer un camino dedicado al transporte que había iniciado en el año 1992, alentado por una ciudad que crecía y demandaba más y mejores servicios de traslado, decide crear otra empresa avalado por sus conocimientos en transportes. Así nace Markal Hormigonera.</p>
             <p>La flota de la compañía de transporte estaba formada en ese entonces por camiones volcadores, tolvas de cemento y equipos cerealeros, que Gustavo pone a disposición de la nueva hormigonera. De esa forma, se aporta a la construcción una oferta sustentable y seria que Tandil, allá por el año 2002 estaba necesitando. Siendo de esta forma Pionera en lo que es bombeos de hormigón en altura y en tecnología en todo lo referido a este rubro.</p>
         </div>
-        
+        <div class="container">
+            <div class="row">
+                <div class="col-2 col-sm-2 col-md-2" id="Bértoli">
+                    Bértoli
+                    <img src="img/Nuestrosclientes/bertoli-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2" id="Coarco S.A.">
+                    Coarco S.A.
+                    <img src="img/Nuestrosclientes/coarco-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2" id="Riva S.A.">
+                    Riva S.A.
+                    <img src="img/Nuestrosclientes/riva-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2" id="Sorsa S.A.">
+                    Sorsa S.A.
+                    <img src="img/Nuestrosclientes/sorsa-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2" id="Eleprint">
+                    Eleprint 
+                    <img src="img/Nuestrosclientes/eleprint-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2" id="Galizio">
+                    Galizio
+                    <img src="img/Nuestrosclientes/galizio-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
+                </div>
+            </div>
+            
+
+        </div>
     </main>
-
-    <section>
-        <h1> Nuestros clientes </h1>
-        <ul class="nuestrosClientes">
-            <li>Bértoli</li>
-            <li>Coarco S.A</li>
-            <li>Riva S.A</li>
-            <li>Sorsa S.A</li>
-            <li>Eleprint</li>
-        </ul>
-    </section>  
-
     <footer>
         <h1>¿DÓNDE NOS PODES ENCONTRAR?</h1>
         <ul>
@@ -76,5 +105,7 @@
         </ul>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.2192623164265!2d-59.1164714845114!3d-37.31363361336356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911ffa8aa43d99%3A0x1b3ce0e94b40837e!2sPiedrabuena%20904%2C%20B7001%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629489295483!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

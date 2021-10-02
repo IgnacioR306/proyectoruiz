@@ -8,10 +8,9 @@ header {
         text-align: center;
         background-color: #7D7D7D;
             ul li {
-                display: inline-block;
+                display: inline-block;}
             
             #titulo {
-                color:rgb(179, 43, 43);
                 text-align: start;
                 height: 100%;
             }
@@ -21,10 +20,13 @@ header {
                     text-transform: uppercase;
                     letter-spacing: 2px;
                 }
-            }
+                a:hover {
+                    background-color: #FBCF00;
+                }
             #menu {
                 background-color:#7D7D7D;
             }
+
             .redesSociales {
                 text-decoration: none;
                 color: black;
@@ -48,48 +50,31 @@ main {
     .clientes {
         text-align: center;
         font-family: 'Source Sans Pro', sans-serif;
-        color: black;
         height: 100%;
         font-size: 150%;
         p {
             font-size: 100%;
             width: 100%; }
     }
-}
+
 .proyectosRealizados {
     h3 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 200%;
-        text-align:left }
+        text-align:left; }
     p {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 100%;
-        text-align:left 
-    }
+        font-size: 100%; }
+}
 }
 
-
-footer {
-    .mapa {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 200%;
-        height: 100%;
-        text-align: center;
-        list-style: none;
-        background-color: #7D7D7D;
-    }
-}
-
-@media only screen and ( max-width:768px) {
+@media only screen and (max-width: 768px) {
     .clientes {
-        width: 20%; 
-        display: none;
-    }
-}
-
-@media only screen and ( max-width:380px) {
-    .clientes {
-        width: 20%;
-        display: none;
+      width: 20%;
+      display: none; } }
+  
+@media only screen and (max-width: 380px) {
+    .img-responsive {
+        width: 5%;
     }
 }

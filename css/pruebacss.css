@@ -8,15 +8,16 @@ header nav {
   background-color: #7D7D7D; }
   header nav ul li {
     display: inline-block; }
-    header nav ul li #titulo {
-      color: #b32b2b;
-      text-align: start;
-      height: 100%; }
-    header nav ul li a {
-      color: black;
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 2px; }
+  header nav #titulo {
+    text-align: start;
+    height: 100%; }
+  header nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  header nav a:hover {
+    background-color: #FBCF00; }
   header nav #menu {
     background-color: #7D7D7D; }
   header nav .redesSociales {
@@ -38,30 +39,20 @@ main .infoQuienes {
 main .clientes {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
   height: 100%;
   font-size: 150%; }
   main .clientes p {
     font-size: 100%;
     width: 100%; }
 
-.proyectosRealizados h3 {
+main .proyectosRealizados h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 200%;
   text-align: left; }
 
-.proyectosRealizados p {
+main .proyectosRealizados p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 100%;
-  text-align: left; }
-
-footer .mapa {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 200%;
-  height: 100%;
-  text-align: center;
-  list-style: none;
-  background-color: #7D7D7D; }
+  font-size: 100%; }
 
 @media only screen and (max-width: 768px) {
   .clientes {
@@ -69,6 +60,5 @@ footer .mapa {
     display: none; } }
 
 @media only screen and (max-width: 380px) {
-  .clientes {
-    width: 20%;
-    display: none; } }
+  .img-responsive {
+    width: 5%; } }

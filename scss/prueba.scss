@@ -1,0 +1,95 @@
+header {
+    nav {
+        list-style: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        width: 100%;
+        font-size: 100%;
+        z-index: 1000;
+        text-align: center;
+        background-color: #7D7D7D;
+            ul li {
+                display: inline-block;
+            
+            #titulo {
+                color:rgb(179, 43, 43);
+                text-align: start;
+                height: 100%;
+            }
+                a {
+                    color: black;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+            }
+            #menu {
+                background-color:#7D7D7D;
+            }
+            .redesSociales {
+                text-decoration: none;
+                color: black;
+                font-size: 2rem;
+                text-align: center;
+                width: 5%;
+                height: 50%;
+            }
+    } 
+}
+
+main {
+    .infoQuienes {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 100%;
+        margin: 5%;
+        text-align: center;
+        padding: 0%;
+        background-color: #7D7D7D;
+    } 
+    .clientes {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: black;
+        height: 100%;
+        font-size: 150%;
+        p {
+            font-size: 100%;
+            width: 100%; }
+    }
+}
+.proyectosRealizados {
+    h3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 200%;
+        text-align:left }
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 100%;
+        text-align:left 
+    }
+}
+
+
+footer {
+    .mapa {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 200%;
+        height: 100%;
+        text-align: center;
+        list-style: none;
+        background-color: #7D7D7D;
+    }
+}
+
+@media only screen and ( max-width:768px) {
+    .clientes {
+        width: 20%; 
+        display: none;
+    }
+}
+
+@media only screen and ( max-width:380px) {
+    .clientes {
+        width: 20%;
+        display: none;
+    }
+}

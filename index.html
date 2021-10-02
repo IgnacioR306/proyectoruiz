@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/pruebacss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <div class="grilla">
     <!--Aqui va la barra de navegacion-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light navbar-color">
+        <nav id="menu" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/Logo/Logo.png" alt="icono"  width="180"  class="d-inline-block align-text-top" >
@@ -26,7 +26,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
+                        <li id="titulo" class="nav-item">
                             <h1> Markal <br> Hormigonera S.A. </h1>
                         </li>
                         <li class="nav-item redesSociales">
@@ -62,13 +62,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/Fondoinicio.jpg" class="d-block w-100" alt="fondoinicio">
+                <img src="img/Fondoinicio1.jpg" class="d-block w-100" alt="fondoinicio">
               </div>
               <div class="carousel-item">
-                <img src="img/FotoInicio2.jpeg" class="d-block w-100" alt="fondoinicio2">
+                <img src="img/Fondoinicio2.jpg" class="d-block w-100" alt="fondoinicio2">
               </div>
               <div class="carousel-item">
-                <img src="img/Fondoinicio3.jpeg" class="d-block w-100" alt="fondoinicio3">
+                <img src="img/Fondoinicio3.jpg" class="d-block w-100" alt="fondoinicio3">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -80,33 +80,33 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <div class="infoQuienes">
+        <div class="infoQuienes container">
             <h2>¿Quienes somos?</h2> <br>
             <p>En el año 1946, luego de la segunda guerra mundial, llega a Tandil una familia de inmigrantes, encabezada por Fidel Cardinale, para radicarse en la ciudad e iniciarse en la construcción. De esta familia nacen Francisco y Luis Cardinale.
-            Luis Cardinale, dedicado a la construcción desde su inicio, se asocia con Ignacio Diez creando la empresa constructora Cardinale y Diez. Es así que, con todos estos antecedentes familiares, Gustavo, hijo de Luis Cardinale e ahijado de Ignacio Diez, luego de recorrer un camino dedicado al transporte que había iniciado en el año 1992, alentado por una ciudad que crecía y demandaba más y mejores servicios de traslado, decide crear otra empresa avalado por sus conocimientos en transportes. Así nace Markal Hormigonera.</p>
+            Luis Cardinale, dedicado a la construcción desde su inicio, se asocia con Ignacio Diez creando la empresa constructora Cardinale y Diez. <br> Es así que, con todos estos antecedentes familiares, Gustavo, hijo de Luis Cardinale e ahijado de Ignacio Diez, luego de recorrer un camino dedicado al transporte que había iniciado en el año 1992, alentado por una ciudad que crecía y demandaba más y mejores servicios de traslado, decide crear otra empresa avalado por sus conocimientos en transportes. Así nace Markal Hormigonera.</p>
             <p>La flota de la compañía de transporte estaba formada en ese entonces por camiones volcadores, tolvas de cemento y equipos cerealeros, que Gustavo pone a disposición de la nueva hormigonera. De esa forma, se aporta a la construcción una oferta sustentable y seria que Tandil, allá por el año 2002 estaba necesitando. Siendo de esta forma Pionera en lo que es bombeos de hormigón en altura y en tecnología en todo lo referido a este rubro.</p>
         </div>
-        <div class="container">
+        <div class="container clientes">
             <div class="row" >
                 <div class="col-2 col-sm-2 col-md-2" id="Bértoli">
-                    Bértoli
+                <p>Bértoli</p>    
                 </div>
                 <div class="col-2 col-sm-2 col-md-2" id="Coarco S.A.">
-                    Coarco S.A.
+                <p>Coarco S.A.</p>   
                 </div>
                 <div class="col-2 col-sm-2 col-md-2" id="Riva S.A.">
-                    Riva S.A.
+                <p>Riva S.A.</p>    
                 </div>
                 <div class="col-2 col-sm-2 col-md-2" id="Sorsa S.A.">
-                    Sorsa S.A.
+                <p>Sorsa S.A.</p>    
                 </div>
                 <div class="col-2 col-sm-2 col-md-2" id="Eleprint">
-                    Eleprint 
+                <p>Eleprint</p>     
                 </div>
                 <div class="col-2 col-sm-2 col-md-2" id="Galizio">
-                    Galizio
+                <p>Galizio</p>    
                 </div>
-            <div class="row">
+            <div class="row container">
                 <img class="col-2 col-sm-2 col-md-2" id="Bértoli" src="img/Nuestrosclientes/bertoli-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
                 <img class="col-2 col-sm-2 col-md-2" id="Coarco S.A." src="img/Nuestrosclientes/coarco-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
                 <img class="col-2 col-sm-2 col-md-2" id="Riva S.A." src="img/Nuestrosclientes/riva-logo-markal.png" alt="icono"  width="280"  class="d-inline-block align-text-top">
@@ -118,12 +118,12 @@
          </div>
     </main>
     <footer>
-        <h1>¿DÓNDE NOS PODES ENCONTRAR?</h1>
-        <ul>
+        <h1 class="mapa">¿DÓNDE NOS PODES ENCONTRAR?</h1>
+        <ul class="mapa">
             <li>Piedrabuena 904</li>
             <li>Tandil (7000)</li>
         </ul>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.2192623164265!2d-59.1164714845114!3d-37.31363361336356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911ffa8aa43d99%3A0x1b3ce0e94b40837e!2sPiedrabuena%20904%2C%20B7001%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629489295483!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.2192623164265!2d-59.1164714845114!3d-37.31363361336356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911ffa8aa43d99%3A0x1b3ce0e94b40837e!2sPiedrabuena%20904%2C%20B7001%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629489295483!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

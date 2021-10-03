@@ -78,3 +78,14 @@ main {
         width: 5%;
     }
 }
+
+.tituloOriginal {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    background-color: gray;
+}
+
+.tituloCopia {
+    @extend .tituloOriginal;
+    background: green;
+}

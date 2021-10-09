@@ -9,11 +9,6 @@ header {
         background-color: #7D7D7D;
             ul li {
                 display: inline-block;}
-            
-            #titulo {
-                text-align: start;
-                height: 100%;
-            }
                 a {
                     color: black;
                     text-decoration: none;
@@ -22,6 +17,7 @@ header {
                 }
                 a:hover {
                     background-color: #FBCF00;
+                    color: black;
                 }
             #menu {
                 background-color:#7D7D7D;
@@ -38,15 +34,52 @@ header {
     } 
 }
 
+#titulo {
+    text-align: start;
+    font-size: 160%;
+}
+
 main {
     .infoQuienes {
+        h1 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 200%;
+            margin: 5%;
+            text-align: center;
+            padding: 0%;
+            background-color: #7D7D7D;
+        }
+        h2 {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 100%;
+        font-size: 200%;
         margin: 5%;
         text-align: center;
         padding: 0%;
         background-color: #7D7D7D;
-    } 
+        }
+         p {
+            font-family: lato;
+            font-size: 150%;
+            margin: 5%;
+            text-align: center;
+            padding: 0%;
+            background-color: #7D7D7D;
+         }
+        background-color: #7D7D7D;
+        }
+        ul {
+            font-family: lato;
+            font-size: 120%;
+            text-align: center;
+            list-style: none;
+
+        }
+    }
+    .nuestrosClientes {
+            font-family:'Source Sans Pro', sans-serif;
+            text-align: center;
+            font-size: 200%;
+    }
     .clientes {
         text-align: center;
         font-family: 'Source Sans Pro', sans-serif;
@@ -57,16 +90,54 @@ main {
             width: 100%; }
     }
 
+.sobreNosotros {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    background-color: #b9b7b7;
+}
+
 .proyectosRealizados {
-    h3 {
+    background-color: #b9b7b7;
+    h1 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 200%;
-        text-align:left; }
+        text-align: center; }
     p {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 100%; }
+    }
+
+#contacto {
+    h3 {
+        font-family:'Source Sans Pro', sans-serif;
+        text-align: center;
+        font-size: 200%;
+    }
+    .redesSociales {
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+        width: 5%;
+        height: 50%;
+    }
+    h2 {
+        font-family: lato;
+        text-align: center;
+        font-size: 200%;
+    }
 }
+
+.formulario {
+    h2 {
+        font-family:'Source Sans Pro', sans-serif;
+        text-align: center;
+        font-size: 200%;
+    }
+    background-color: #7D7D7D
 }
+
 
 @media only screen and (max-width: 768px) {
     .clientes {
@@ -79,13 +150,29 @@ main {
     }
 }
 
+@media only screen and (max-widht: 380px) {
+    .fotos-responsive {
+        width: 40%;
+    }
+}
+
 .tituloOriginal {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 200%;
     background-color: gray;
 }
 
-.tituloCopia {
-    @extend .tituloOriginal;
-    background: green;
+footer {
+    background-color: #7D7D7D;
+    .mapa {
+    font-family:'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 200%;
+    }
+    .direccion {
+        font-family: lato;
+        text-align: center;
+        font-size: 120%;
+        list-style: none;
+    }
 }

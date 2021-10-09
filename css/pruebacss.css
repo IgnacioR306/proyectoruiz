@@ -8,16 +8,14 @@ header nav {
   background-color: #7D7D7D; }
   header nav ul li {
     display: inline-block; }
-  header nav #titulo {
-    text-align: start;
-    height: 100%; }
   header nav a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px; }
   header nav a:hover {
-    background-color: #FBCF00; }
+    background-color: #FBCF00;
+    color: black; }
   header nav #menu {
     background-color: #7D7D7D; }
   header nav .redesSociales {
@@ -28,31 +26,94 @@ header nav {
     width: 5%;
     height: 50%; }
 
-main .infoQuienes {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 100%;
-  margin: 5%;
-  text-align: center;
-  padding: 0%;
-  background-color: #7D7D7D; }
+#titulo {
+  text-align: start;
+  font-size: 160%; }
 
-main .clientes {
+main .infoQuienes {
+  background-color: #7D7D7D; }
+  main .infoQuienes h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    margin: 5%;
+    text-align: center;
+    padding: 0%;
+    background-color: #7D7D7D; }
+  main .infoQuienes h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    margin: 5%;
+    text-align: center;
+    padding: 0%;
+    background-color: #7D7D7D; }
+  main .infoQuienes p {
+    font-family: lato;
+    font-size: 150%;
+    margin: 5%;
+    text-align: center;
+    padding: 0%;
+    background-color: #7D7D7D; }
+
+main ul {
+  font-family: lato;
+  font-size: 120%;
+  text-align: center;
+  list-style: none; }
+
+.nuestrosClientes {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 200%; }
+
+.clientes {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   height: 100%;
   font-size: 150%; }
-  main .clientes p {
+  .clientes p {
     font-size: 100%;
     width: 100%; }
 
-main .proyectosRealizados h3 {
+.sobreNosotros {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 200%;
-  text-align: left; }
+  text-align: center;
+  background-color: #b9b7b7; }
 
-main .proyectosRealizados p {
+.proyectosRealizados {
+  background-color: #b9b7b7; }
+  .proyectosRealizados h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    text-align: center; }
+  .proyectosRealizados p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%; }
+
+#contacto h3 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 100%; }
+  text-align: center;
+  font-size: 200%; }
+
+#contacto .redesSociales {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  width: 5%;
+  height: 50%; }
+
+#contacto h2 {
+  font-family: lato;
+  text-align: center;
+  font-size: 200%; }
+
+.formulario {
+  background-color: #7D7D7D; }
+  .formulario h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 200%; }
 
 @media only screen and (max-width: 768px) {
   .clientes {
@@ -63,10 +124,23 @@ main .proyectosRealizados p {
   .img-responsive {
     width: 5%; } }
 
-.tituloOriginal, .tituloCopia {
+@media only screen and (max-widht: 380px) {
+  .fotos-responsive {
+    width: 40%; } }
+
+.tituloOriginal {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 200%;
   background-color: gray; }
 
-.tituloCopia {
-  background: green; }
+footer {
+  background-color: #7D7D7D; }
+  footer .mapa {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 200%; }
+  footer .direccion {
+    font-family: lato;
+    text-align: center;
+    font-size: 120%;
+    list-style: none; }

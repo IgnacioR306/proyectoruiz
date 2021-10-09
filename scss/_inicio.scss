@@ -1,0 +1,57 @@
+#titulo {
+    text-align: start;
+    font-size: 160%;
+}
+
+main {
+    .infoQuienes {
+        h1 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 200%;
+            margin: 5%;
+            text-align: center;
+            padding: 0%;
+            background-color: #7D7D7D;
+        }
+        h2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 200%;
+        margin: 5%;
+        text-align: center;
+        padding: 0%;
+        background-color: #7D7D7D;
+        }
+         p {
+            font-family: lato;
+            font-size: 150%;
+            margin: 5%;
+            text-align: center;
+            padding: 0%;
+            background-color: #7D7D7D;
+         }
+        background-color: #7D7D7D;
+        ul {
+            font-family: lato;
+            font-size: 120%;
+            text-align: center;
+            list-style: none;
+            }
+    }
+.nuestrosClientes {
+    font-family:'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 200%;
+}      
+.clientes {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    font-size: 150%;
+    background-color: #b9b7b7; 
+    p   {
+    font-size: 100%;
+    width: 100%;
+    background-color: #b9b7b7;
+    }
+}
+}
